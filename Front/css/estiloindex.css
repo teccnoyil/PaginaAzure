@@ -1,0 +1,108 @@
+/* BODY */
+body {
+    height: 100vh;
+    background-color: #f7f3f3;
+}
+
+/* NAVBAR */
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255, 0)
+}
+
+/* HEADER */
+.jumbotron {
+    background-color: #f8e1de;
+    color: #f7f3f3;
+    margin: 55px 0px 0px 0px;
+    background-image: url("../imagenes/bannerarriba.jpg");
+    background-size: cover;
+    margin-top:55px;
+    padding: 50px;
+   margin-bottom: 30px;
+}
+
+
+/* MAIN */
+main {
+    margin: 50px 0px;
+}
+.carousel {
+    margin-bottom: 20px;
+}
+.carousel-item {
+    width: 100%;
+    height: 40vh;
+}
+.carousel-inner .carousel-item img {
+    width: 100% !important;
+    object-fit: cover;
+}
+.collapse-options {
+    margin-top: 20px;
+}
+.home-collapse {
+    margin: 10px 0;
+}
+.home-collapse-btn,
+.modal-btn {
+    color: #333232;
+    background-color: #79d5fc;
+}
+.modal-btn {
+    margin-top: 15px;
+}
+.card {
+    border: none;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+.hotel-card .btn-reserva {
+    width: 100%;
+    border-radius: 0px;
+}
+.btn-outline-secondary {
+    background-color: #9abca7;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.btn-outline-secondary:hover {
+    background-color: #629376;
+}
+.btn-outline-danger {
+    background-color: #b96767;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.btn-outline-danger:hover {
+    background-color: #bb5151;
+}
+.tab-content {
+    margin-top: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #79d5fc;
+}
+
+/* FOOTER */
+footer {
+    padding: 10px 10px 0 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: #476072;
+    color: #EEEEEE;
+}
+footer .container div div {
+        margin: 10px 0;
+    }
+footer .container div div address {
+            margin: 0;
+        }
+footer .container div div a {
+            color: #EEEEEE;
+        }
+footer .container div div a {
+                color: #EEEEEE;
+            }

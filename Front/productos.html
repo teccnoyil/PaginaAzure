@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo_productos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="scripts.js"></script>
+    <title>Productos</title>
+</head>
+<body>
+   <nav class="navbar navbar-light navbar-expand-md  fixed-top " style="background-color: #e3f2fd;">    
+       <div class="container-fluid">
+       <a class="navbar-brand" href="#">Ferreteria Santa Catalina</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2">           
+              <li class="nav-link active"><a class="nav-link" href="index.html">Inicio</a> </li>
+              <li class="nav-link"><a class="nav-link" href="productos.html">Productos</a></li>
+              <li class="nav-link"><a class="nav-link" href="Qsomos.html">Quienes Somos</a></li>
+              <li class="nav-link"><a class="nav-link" href="precios.html">Envíos</a></li>
+              <li class="nav-link"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+            </ul>
+           </div>
+          </div>
+          <button  id="venta" class="btn-tienda" onclick="pagar()">Pagar</button>
+     </nav>
+
+
+        <!-- <div class="page-nav fixed-top">
+        <h1>Ferreteria Hernandez</h1>
+        <button  id="venta" class="btn-tienda" onclick="pagar()">Pagar</button>
+    </div>  -->
+
+    <div class="page-content">
+        <div class="product-container col">
+           <h4>Taladro Percutor Atornillador Inalambrico Bosch</h4>
+           <img src="https://http2.mlstatic.com/D_NQ_NP_2X_986660-MLA44986030012_022021-F.webp">
+           <h1>$2528.00</h1>
+          <button class="btn"onclick="agregar('producto-1',2528)">Agregar</button>
+             </div>
+
+      <div class="product-container col">
+          <h4>Multimetro Digital Prof. 500 V Truper </h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_857229-MLM45279445149_032021-F.webp">
+          <h1>$415.00</h1>
+          <button class="btn"onclick="agregar('producto-2',415)">Agregar</button>
+      </div>
+      
+      <div class="product-container col">
+          <h4>Juego Herramientas 133 Pz Pretul 
+          </h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_800138-MLM43147566469_082020-F.webp">
+          <h1>$1015.00</h1>
+          <button class="btn"onclick="agregar('producto-3',1015)">Agregar</button>
+      </div>
+      
+      <div class="product-container col">
+          <h4>Mini Esmeriladora De 4-1/2 
+          </h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_724380-MLM31231996148_062019-F.webp">
+          <h1>$657.00</h1>
+          <button class="btn"onclick="agregar('producto-4',657)">Agregar</button>
+      </div>
+      
+      <div class="product-container col">
+          <h4>Juego Pinzas Electricista Chofer Corte 4 Pz 8 Y 6</h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_716925-MLM44794906196_022021-F.webp">
+          <h1>$325.00</h1>
+          <button class="btn"onclick="agregar('productos-5',325)">Agregar</button>
+      </div>
+      
+      <div class="product-container col">
+          <h4>Bomba periférica Agua negra 60Hz
+          </h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_941647-MLA46315754198_062021-F.webp">
+          <h1>$325.00</h1>
+          <button class="btn"onclick="agregar('producto-6',325)">Agregar</button>
+      </div>
+
+      <div class="product-container col">
+          <h4>RotoMartillo 1/2', industrial, 650 W
+          </h4>
+          <img src="https://cdn.shopify.com/s/files/1/1431/6668/products/15683_1024x1024.jpg?v=1594827565">
+          <h1>$1500.00</h1>
+          <button class="btn"onclick="agregar('producto-7',1500)">Agregar</button>
+      </div>
+
+      <div class="product-container col">
+          <h4>Pico Forjado 2.5 Lb   Fibra De Vidrio 
+          </h4>
+          <img src="https://cdn.shopify.com/s/files/1/1431/6668/products/100434_1024x1024.jpg?v=1594827622">
+          <h1>$279.00</h1>
+          <button class="btn"onclick="agregar('producto-8',279)">Agregar</button>
+      </div>
+
+      <div class="product-container col">
+          <h4>Googles Profesionales - Impactos Y Salpicaduras
+          </h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_794538-MLM44035076693_112020-O.webp">
+          <h1>$195.00</h1>
+          <button class="btn"onclick="agregar('producto-9',195)">Agregar</button>
+      </div>
+
+      <div class="product-container col">
+          <h4>Desbrozadora A Gasolina 17'' Corte Curva 
+          </h4>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_776482-MLM47588517572_092021-O.webp">
+          <h1>$2350.00</h1>
+          <button class="btn"onclick="agregar('producto-10',2350)">Agregar</button>
+      </div>
+
+      <div class="product-container col">
+          <h4>Carretilla, Llanta Neumática Reforzada
+          </h4>
+          <img src="https://cdn.shopify.com/s/files/1/1431/6668/products/11740_29844601086_o_1024x1024.jpg?v=1475074641">
+          <h1>$525.00</h1>
+          <button class="btn"onclick="agregar('producto-11',325)">Agregar</button>
+      </div>
+
+      <div class="product-container col">
+          <h4>Extintor recargable tipo ABC 1kg</h4>
+          <img src="https://cdn.shopify.com/s/files/1/1431/6668/products/EXT-1_1024x1024.jpg?v=1614299678">
+          <h1>$425.00</h1>
+          <button class="btn"onclick="agregar('producto-12',325)">Agregar</button>
+           </div> 
+        </div>
+    </div>
+     
+    <footer>
+       <div class="container">
+         <div class="row d-flex flex-column flex-sm-row justify-content-between">
+    
+           <div class="col-sm-4 d-flex flex-column text-center align-items-sm-start">
+             <a href="">Facebook</a>
+             <a href="">Instagram</a>
+             <a href="">Twitter</a>
+           </div>
+           <div class="col-sm-4 text-center text-sm-left d-flex justify-content-center">
+             <address>
+               <h4>C. Gral.Francisco Villa 214, Cuernavaca  </h4> 
+               <a href="tel: +527771473698">+527771473698</a><br>
+               <a href="mailto:ferreteriashernandez@gmail.com">ferreteriashernandez@gmail.com</a>  
+             </address>
+             </div>
+           <div class="col-sm-4 d-flex flex-column text-center align-items-sm-end">
+             <a href="">Nosotros</a>
+             <a href="">Productos</a>
+             <a href="">Contacto</a>
+           </div>
+         </div>
+       </div>
+     </footer>
+     
+</body>
+</html>
+
+
+   
+  
+   

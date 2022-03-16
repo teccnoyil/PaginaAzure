@@ -1,0 +1,113 @@
+ body {
+     margin: 0px;
+     background-color: #EEEEEE;
+ }
+
+ nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.jumbotron {
+    background-color: #476072;
+    color: #EEEEEE;
+    margin-top:55px;
+    padding: 50px;
+   margin-bottom: 30px;
+}
+ .page-nav{
+     background-color: aliceblue;
+     border: 1px solid black;
+     position: relative;
+ }
+ .page-nav h1{
+     margin: 20px;
+ }
+ .page-content{
+     
+     display: flex;
+     flex-wrap: wrap;
+     margin-top:55px;
+     padding: 50px;
+     
+ }
+ .product-container{
+     margin: 15px;
+     padding: 2px 16px;
+     position: relative;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+     background-color:  white;
+ }
+ .product-container h1{
+ margin-bottom: 10px;
+ margin-left: 15px;
+}
+.product-container h4{
+    text-align: center;
+}
+
+
+ .product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+ .product-container img{
+     width: 300px;
+    
+     position: relative;
+      
+ }
+
+ .btn {
+    font-size:  16px;
+    text-align: center;
+     border-radius: 8px;
+     padding: 10px 20px;
+     background-color: white;
+     color: black;
+     border: 2px solid #4CAF50;
+     transition-duration: 0.4s;
+     position: absolute;
+     right:  15px;
+     bottom: 10px;
+ }
+ .btn:hover{
+     background-color: #F78812;
+     color: white;
+ }
+
+ .btn-tienda{
+    font-size:  16px;
+    text-align: center;
+     border-radius: 8px;
+     padding: 10px 20px;
+     background-color: white;
+     color: black;
+     border: 2px solid #F78812;
+     transition-duration: 0.4s;
+     position: absolute;
+     right:  15px;
+     bottom: 15px;
+ }
+
+ footer {
+    padding: 10px 10px 0 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: #476072;
+    color: #EEEEEE;
+}
+footer .container div div {
+        margin: 10px 0;
+    }
+footer .container div div address {
+            margin: 0;
+        }
+footer .container div div a {
+            color: #EEEEEE;
+        }
+footer .container div div a {
+                color: #EEEEEE;
+            }

@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estiloindex.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Lista de Envios</title>
+ </head>
+ <body class="d-flex flex-column justify-content-between">
+  <header>
+    
+      <nav class="navbar navbar-light navbar-expand-md  fixed-top " style="background-color: #e3f2fd;">    
+          <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ferreteria Santa Catalina</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarDropdown"
+           aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2">           
+                 <li class="nav-link active"><a class="nav-link" href="index.html">Inicio</a> </li>
+                 <li class="nav-link"><a class="nav-link" href="productos.html">Productos</a></li>
+                 <li class="nav-link"><a class="nav-link" href="Qsomos.html">Quienes Somos</a></li>
+                 <li class="nav-link"><a class="nav-link" href="precios.html">Envíos</a></li>
+                 <li class="nav-link"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+               </ul>
+              </div>
+             </div>
+        </nav>
+      
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Guía de Hoteles</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow-1">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" aria-current="page"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Precios</li>
+        </ol>
+      </nav>
+
+      <nav class="nav nav-pills flex-column flex-sm-row" role="tablist">
+        <a class="flex-sm-fill text-sm-center nav-link active" href="#precios" data-toggle="pill" role="tab" aria-controls="precios" id="precios-tab" aria-selected="true">Precios</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#accordionExample" data-toggle="pill" role="tab" aria-controls="medios" id="medios-tab" aria-selected="false">Medios de pago</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#comentarios" data-toggle="pill" role="tab" aria-controls="comentarios" id="comentarios-tab" aria-selected="false">Comentarios</a>
+      </nav>
+
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="precios" role="tabpanel" aria-labelledby="precios-tab">
+
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th>Dias de entrega</th>
+                <th>DHL</th>
+                <th>Fedex</th>
+                <th>UPS</th>
+                <th>RedPack</th>
+                <th>Sepomex</th>
+
+              </thead>
+              <tbody>
+                <tr>
+                  <td> 
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon> 
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                   
+                     </td>
+                  <td>$140</td>
+                  <td>$130</td>
+                  <td>$134</td>
+                  <td>$145</td>
+                  <td>$120</td>
+                </tr>
+                <tr>
+                  <td>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+ 
+                  </td>
+                  <td>$235</td>
+                  <td>$220</td>
+                  <td>$230</td>
+                  <td>$260</td>
+                  <td>$210</td>
+                </tr>
+                <tr>
+                  <td>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+
+                  </td>
+                  <td>$330</td>
+                  <td>$325</td>
+                  <td>$310</td>
+                  <td>$307</td>
+                  <td>$270</td>
+                </tr>
+                <tr>
+                  <td>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+
+
+                  </td>
+                  <td>$370</td>
+                  <td>$360</td>
+                  <td>$335</td>
+                  <td>$335</td>
+                  <td>$300</td>
+                </tr>
+                <tr>
+                  <td>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+
+                  </td>
+                  <td>$425</td>
+                  <td>$400</td>
+                  <td>$415</td>
+                  <td>$430</td>
+                  <td>$380</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+
+        <div class="accordion tab-pane fade" id="accordionExample" role="tabpanel" aria-labelledby="medios-tab">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Efectivo
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Sin tarjeta de crédito, sin problema. Compra con efectivo
+                <p></p>
+                Paga en efectivo en OXXO, no necesitas una tarjeta de débito o crédito para acceder a la gran selección y precios bajos. Usa dinero en efectivo para pagar los artículos esenciales de todos los días. Paga a tu conveniencia con efectivo en una ubicación OXXO cercana.              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Tarjeta de debito
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Puedes pagar con tus tarjetas de Débito Visa y Mastercard: Bancomer, Banamex, Banorte, Ixe, Santander, HSBC, Banco Azteca, Inbursa, Banregio, Bansi, Intercam, Dónde Banco, Afirme, Bancoppel, Bankaool, Banco Walmart.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Tarjeta de credito
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Puedes pagar con tus tarjetas de crédito Visa, Mastercard, American Express y Carnet.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Transferencia
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nisi facilis expedita harum minus minima?</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row d-flex flex-column flex-sm-row justify-content-between">
+  
+        <div class="col-sm-4 d-flex flex-column text-center align-items-sm-start">
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="">Twitter</a>
+        </div>
+        <div class="col-sm-4 text-center text-sm-left d-flex justify-content-center">
+          <address>
+            <h4>C. Gral.Francisco Villa 214, Cuernavaca  </h4> 
+            <a href="tel: +527771473698">+527771473698</a><br>
+            <a href="mailto:ferreteriashernandez@gmail.com">ferreteriashernandez@gmail.com</a>  
+          </address>
+          </div>
+        <div class="col-sm-4 d-flex flex-column text-center align-items-sm-end">
+          <a href="">Nosotros</a>
+          <a href="">Productos</a>
+          <a href="">Contacto</a>
+        </div>
+      </div>
+    </div>
+    
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>a384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  </body>
+</html>
